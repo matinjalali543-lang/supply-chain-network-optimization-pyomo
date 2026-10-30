@@ -177,28 +177,28 @@ Eight standalone optimization models built to the same conventions — validated
 dataclasses that fail loudly at construction, a builder that never touches raw
 files, and a result dataclass rather than a live model — but sharing no code.
 
-- [economic-dispatch-pyomo](https://github.com/Ahmadmohammadip/economic-dispatch-pyomo)
+- [economic-dispatch-pyomo](https://github.com/matinjalali543-lang/economic-dispatch-pyomo)
   — multi-period, multi-bus DC-OPF economic dispatch with generator
   ramping, curtailable renewables, storage, and locational marginal prices.
-- [battery-storage-optimization-pyomo](https://github.com/Ahmadmohammadip/battery-storage-optimization-pyomo)
+- [battery-storage-optimization-pyomo](https://github.com/matinjalali543-lang/battery-storage-optimization-pyomo)
   — battery energy arbitrage co-optimized with frequency regulation
   capacity (revenue stacking) as a single LP.
-- [cvrp-optimization-pyomo](https://github.com/Ahmadmohammadip/cvrp-optimization-pyomo)
+- [cvrp-optimization-pyomo](https://github.com/matinjalali543-lang/cvrp-optimization-pyomo)
   — exact MILP for the Capacitated Vehicle Routing Problem, with a
   measured benchmark of where exact methods stop scaling.
-- [forecast-driven-bess-dispatch](https://github.com/Ahmadmohammadip/forecast-driven-bess-dispatch)
+- [forecast-driven-bess-dispatch](https://github.com/matinjalali543-lang/forecast-driven-bess-dispatch)
   — ML forecasts of load, PV and price feeding a Pyomo dispatch LP for a
   behind-the-meter battery, measuring what the forecast is actually worth.
-- [building-energy-digital-twin](https://github.com/Ahmadmohammadip/building-energy-digital-twin)
+- [building-energy-digital-twin](https://github.com/matinjalali543-lang/building-energy-digital-twin)
   — a stateful digital twin of an office: an RC thermal model identified
   from telemetry, fault detection scored against injected faults, and
   comfort-constrained MPC over HVAC and a battery.
-- [resilient-microgrid-optimization](https://github.com/Ahmadmohammadip/resilient-microgrid-optimization)
+- [resilient-microgrid-optimization](https://github.com/matinjalali543-lang/resilient-microgrid-optimization)
   — a MILP that operates a distribution feeder through a 72-hour extreme
   event: which lines to close, which sections to energise, what to dispatch
   and what to shed, subject to a radiality constraint that is enforced
   mathematically rather than asserted.
-- [llm-energy-optimization-copilot](https://github.com/Ahmadmohammadip/llm-energy-optimization-copilot)
+- [llm-energy-optimization-copilot](https://github.com/matinjalali543-lang/llm-energy-optimization-copilot)
   — natural-language energy requests turned into a validated structured
   intent, solved by a deterministic Pyomo optimizer and explained from the
   numbers it produced — with the LLM confined to interpretation and never
